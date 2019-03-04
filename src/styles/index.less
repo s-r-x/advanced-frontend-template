@@ -1,0 +1,20 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import './vars.less';
+@import './utils.less';
+@import './typography.less';
+@import './common.less';
+
+.head {
+  height: 100vh;
+  .flex-column;
+  .flex-center;
+  background: @bg-color;
+  color: @text-color;
+  &--logo {
+    width: 150px;
+  }
+  &--greetings {
+    margin-top: 25px;
+    font-size: 24px;    
+  }
+}
